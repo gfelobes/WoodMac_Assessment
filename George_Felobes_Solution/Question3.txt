@@ -1,0 +1,22 @@
+We can determine the data quality based on quantitative and qualitative methods. 
+
+Qualitative methods include data types, formats, encoding, human error, null values, duplicates, make sure the data is timely, complete and coherent
+Quantitative methods include looking for outliers, data distribution, appropriate encodings if expected. 
+
+
+Some of the qualitative reasons include the following:
+- Can't open the file using UTF-8 encoding because of special characters due to the presence of sepecial character. 
+- Only 99% (dtermined by chardet) of the file could be converted to UTF-8 using notepad ++. 
+- Record 76 has the name "Mendoza" in field 15 instead of 14. Whole row is shifted by a column 
+- datetime of dates to be specified
+- dattype of numeric data needs to be set as float or integer
+- Null values as shown below: 
+Measured_Depth   1539 non-null   float64
+Drilling_Start   889 non-null    object 
+Drilling_end     887 non-null    object 
+Completion_Date  838 non-null    object 
+Reservoir        1998 non-null   object
+- well number letter case consistency 
+- split field name and field code 
+- convert 'unassigned' to Null in reservoir, play_name and state_name 
+- check for duplicate values in a column set and subsets 

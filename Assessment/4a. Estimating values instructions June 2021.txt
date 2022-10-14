@@ -1,0 +1,12 @@
+The file 'Estimating values dataset June 2021.csv' contains details of well attributes.
+There is incomplete population of the following parameters:
+--tvd__ft
+--measured_depth__ft
+--lateral_length__ft
+--drilltime__day
+--fracture_stages
+--fracture_fluid__ugl
+--proppant__lbs
+--gravity__api
+Devise an approach to fill in null values for these attributes with estimates.
+(The expectation is not for full implementation or accuracy - we are interested in the approach you'd take)

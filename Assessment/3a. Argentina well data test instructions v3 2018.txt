@@ -1,0 +1,3 @@
+The file "Argentina well data test 2018 v2.csv" contains a sample of well attribute data for Argentina wells. 
+
+What issues can you find with the data that would need to be addressed before releasing to users?
