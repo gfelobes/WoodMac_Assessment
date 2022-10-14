@@ -38,7 +38,7 @@ class question1:
 
 
 # inputs: 
-path = r"1. Python Asset prodn sum by BkEven June 2019.xlsx"
+path = r"George_Felobes_Solution\Assessment\1. Python Asset prodn sum by BkEven June 2019.xlsx"
 year = 3
 
 # Run class object 
